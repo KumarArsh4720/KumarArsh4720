@@ -54,8 +54,8 @@ class Arsh:
 ## ▍activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KumarArsh4720&show_icons=true&hide_border=true&bg_color=17110C&title_color=E8A65D&icon_color=D4785A&text_color=EDE3D6&ring_color=E8A65D&include_all_commits=true&count_private=true" alt="GitHub stats" width="49%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KumarArsh4720&layout=compact&hide_border=true&bg_color=17110C&title_color=E8A65D&text_color=EDE3D6&langs_count=8" alt="Top languages" width="42%">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=KumarArsh4720&layout=donut-vertical&hide_title=true&langs_count=4&hide_values=true&theme=transparent" alt="GitHub stats" width="49%">
+
 </div>
 
 <br>
