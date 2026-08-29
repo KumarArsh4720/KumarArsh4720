@@ -76,7 +76,7 @@ class Arsh:
   <a href="mailto:kumararsh4720@gmail.com">
     <img src="https://img.shields.io/badge/email-17110C?style=for-the-badge&logo=gmail&logoColor=E8A65D" alt="Email">
   </a>
-  <a href="https://linkedin.com/in/arsh-kumar-122299309/">
+  <a href="https://linkedin.com/in/arsh-kumar-122299309/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/linkedin-17110C?style=for-the-badge&logo=linkedin&logoColor=D4785A" alt="LinkedIn">
   </a>
 </div>
