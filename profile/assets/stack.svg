@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224"
+     viewBox="0 0 1000 224" role="img" aria-label="Tech stack">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17110C"/>
+      <stop offset=".55" stop-color="#1F1710"/>
+      <stop offset="1" stop-color="#271C13"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2D7A7"/>
+      <stop offset="1" stop-color="#E8A65D"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E8A65D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E8A65D" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#E8A65D" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop offset="0" stop-color="#E8A65D" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#E8A65D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ember">
+      <stop offset="0" stop-color="#D4785A" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#D4785A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#E8A65D" fill-opacity=".07"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="224" rx="18"/></clipPath>
+    <style>
+    .lampA{animation:driftA 19s ease-in-out infinite}
+    .lampB{animation:driftB 23s ease-in-out infinite}
+    @keyframes driftA{0%,100%{opacity:.85;transform:translate(0,0)}50%{opacity:1;transform:translate(26px,10px)}}
+    @keyframes driftB{0%,100%{opacity:.8;transform:translate(0,0)}50%{opacity:1;transform:translate(-22px,-8px)}}
+    .hud{animation:breathe 6s ease-in-out infinite}
+    @keyframes breathe{0%,100%{opacity:.9}50%{opacity:.55}}.f0{animation:fall0 19.25s linear -9.23s infinite}@keyframes fall0{from{transform:translate(141.5px,-30px)}to{transform:translate(168.1px,254px)}}.s0{animation:sway0 3.16s ease-in-out -9.23s infinite alternate}@keyframes sway0{from{transform:translateX(-9.7px) rotate(8deg)}to{transform:translateX(9.7px) rotate(105deg)}}.f1{animation:fall1 16.57s linear -2.40s infinite}@keyframes fall1{from{transform:translate(-15.3px,-30px)}to{transform:translate(45.3px,254px)}}.s1{animation:sway1 4.55s ease-in-out -2.40s infinite alternate}@keyframes sway1{from{transform:translateX(-10.5px) rotate(2deg)}to{transform:translateX(10.5px) rotate(90deg)}}.f2{animation:fall2 15.28s linear -7.60s infinite}@keyframes fall2{from{transform:translate(610.5px,-30px)}to{transform:translate(545.3px,254px)}}.s2{animation:sway2 2.90s ease-in-out -7.60s infinite alternate}@keyframes sway2{from{transform:translateX(-10.7px) rotate(-18deg)}to{transform:translateX(10.7px) rotate(39deg)}}.f3{animation:fall3 15.46s linear -7.49s infinite}@keyframes fall3{from{transform:translate(441.3px,-30px)}to{transform:translate(448.5px,254px)}}.s3{animation:sway3 3.09s ease-in-out -7.49s infinite alternate}@keyframes sway3{from{transform:translateX(-4.7px) rotate(12deg)}to{transform:translateX(4.7px) rotate(78deg)}}.f4{animation:fall4 18.55s linear -13.54s infinite}@keyframes fall4{from{transform:translate(755.0px,-30px)}to{transform:translate(791.8px,254px)}}.s4{animation:sway4 2.92s ease-in-out -13.54s infinite alternate}@keyframes sway4{from{transform:translateX(-7.6px) rotate(10deg)}to{transform:translateX(7.6px) rotate(72deg)}}.f5{animation:fall5 17.52s linear -5.57s infinite}@keyframes fall5{from{transform:translate(273.7px,-30px)}to{transform:translate(337.3px,254px)}}.s5{animation:sway5 3.86s ease-in-out -5.57s infinite alternate}@keyframes sway5{from{transform:translateX(-6.2px) rotate(10deg)}to{transform:translateX(6.2px) rotate(68deg)}}.f6{animation:fall6 20.73s linear -4.60s infinite}@keyframes fall6{from{transform:translate(481.2px,-30px)}to{transform:translate(488.3px,254px)}}.s6{animation:sway6 4.18s ease-in-out -4.60s infinite alternate}@keyframes sway6{from{transform:translateX(-8.1px) rotate(-3deg)}to{transform:translateX(8.1px) rotate(57deg)}}.f7{animation:fall7 14.99s linear -1.55s infinite}@keyframes fall7{from{transform:translate(330.5px,-30px)}to{transform:translate(344.1px,254px)}}.s7{animation:sway7 2.77s ease-in-out -1.55s infinite alternate}@keyframes sway7{from{transform:translateX(-9.8px) rotate(7deg)}to{transform:translateX(9.8px) rotate(88deg)}}.f8{animation:fall8 23.86s linear -22.94s infinite}@keyframes fall8{from{transform:translate(966.6px,-30px)}to{transform:translate(953.6px,254px)}}.s8{animation:sway8 4.14s ease-in-out -22.94s infinite alternate}@keyframes sway8{from{transform:translateX(-10.2px) rotate(-11deg)}to{transform:translateX(10.2px) rotate(71deg)}}
+    .chip{opacity:0;animation:pop .6s cubic-bezier(.2,.7,.2,1) both}
+    .ttl{animation:pop .6s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    .c0{animation-delay:0.00s}.c1{animation-delay:0.06s}.c2{animation-delay:0.12s}.c3{animation-delay:0.18s}.c4{animation-delay:0.24s}.c5{animation-delay:0.30s}.c6{animation-delay:0.36s}.c7{animation-delay:0.42s}.c8{animation-delay:0.48s}.c9{animation-delay:0.54s}.c10{animation-delay:0.60s}.c11{animation-delay:0.66s}.c12{animation-delay:0.72s}
+    @media(prefers-reduced-motion:reduce){
+      .lampA,.lampB,.hud,.fl,.sw,.dot,.name,.sub,.bar,.chip,.ttl{animation:none}
+      .chip,.ttl{opacity:1}
+    }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="224" fill="url(#panel)"/>
+    <rect width="1000" height="224" fill="url(#dots)"/>
+    <ellipse class="lampA" cx="300" cy="22" rx="420" ry="212" fill="url(#lamp)"/>
+    <ellipse class="lampB" cx="820" cy="206" rx="340" ry="179" fill="url(#ember)"/>
+    <g class="fl f0"><g class="sw s0"><g transform="scale(0.836)" opacity="0.23"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#E8A65D"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f1"><g class="sw s1"><g transform="scale(1.081)" opacity="0.35"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#B87248"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f2"><g class="sw s2"><g transform="scale(0.992)" opacity="0.21"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#E8A65D"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f3"><g class="sw s3"><g transform="scale(0.973)" opacity="0.23"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#A88A52"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f4"><g class="sw s4"><g transform="scale(1.045)" opacity="0.38"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#B87248"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f5"><g class="sw s5"><g transform="scale(0.941)" opacity="0.40"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#E8A65D"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f6"><g class="sw s6"><g transform="scale(0.668)" opacity="0.26"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#C9955C"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f7"><g class="sw s7"><g transform="scale(0.925)" opacity="0.33"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#A88A52"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+    <g class="fl f8"><g class="sw s8"><g transform="scale(0.707)" opacity="0.37"><path d="M6 0C9.7 3.3 12 6.6 6 14 0 6.6 2.3 3.3 6 0Z" fill="#D4785A"/><path d="M6 1.8V12.2" stroke="#17110C" stroke-opacity=".45" stroke-width=".8"/></g></g></g>
+  </g>
+  <rect x=".9" y=".9" width="998.2" height="222.2" rx="17.1" fill="none" stroke="#E8A65D" stroke-opacity=".20"/>
+  <g class="hud">
+    <path d="M14 32V14H32" fill="none" stroke="#E8A65D" stroke-opacity=".38" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M968 14H986V32" fill="none" stroke="#E8A65D" stroke-opacity=".38" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M986 192V210H968" fill="none" stroke="#E8A65D" stroke-opacity=".38" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M32 210H14V192" fill="none" stroke="#E8A65D" stroke-opacity=".38" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+
+  <text class="ttl" x="34" y="30" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11"
+        letter-spacing="2.4" fill="#A6907A"><tspan fill="#E8A65D">// </tspan>TECH STACK</text>
+  <text x="34" y="66.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.6" fill="#6E5C49">LANGUAGES</text>
+  <g class="chip c0"><rect x="184.0" y="46" width="80.6" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="224.3" y="66.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">Python</text></g>
+  <g class="chip c1"><rect x="275.6" y="46" width="113.0" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="332.1" y="66.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">JavaScript</text></g>
+  <g class="chip c2"><rect x="399.6" y="46" width="72.5" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="435.9" y="66.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">HTML5</text></g>
+  <g class="chip c3"><rect x="483.1" y="46" width="64.4" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="515.3" y="66.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">CSS3</text></g>
+  <text x="34" y="120.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.6" fill="#6E5C49">BACKEND · DATA</text>
+  <g class="chip c4"><rect x="184.0" y="100" width="88.7" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="228.3" y="120.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">Node.js</text></g>
+  <g class="chip c5"><rect x="283.7" y="100" width="88.7" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="328.0" y="120.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">MongoDB</text></g>
+  <g class="chip c6"><rect x="383.4" y="100" width="88.7" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="427.8" y="120.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">PyMongo</text></g>
+  <g class="chip c7"><rect x="483.1" y="100" width="72.5" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="519.3" y="120.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">NumPy</text></g>
+  <g class="chip c8"><rect x="566.6" y="100" width="104.9" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="619.0" y="120.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">REST APIs</text></g>
+  <text x="34" y="174.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.6" fill="#6E5C49">TOOLING</text>
+  <g class="chip c9"><rect x="184.0" y="154" width="56.3" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="212.2" y="174.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">Git</text></g>
+  <g class="chip c10"><rect x="251.3" y="154" width="145.4" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="324.0" y="174.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">GitHub Actions</text></g>
+  <g class="chip c11"><rect x="407.7" y="154" width="88.7" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="452.0" y="174.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">VS Code</text></g>
+  <g class="chip c12"><rect x="507.4" y="154" width="72.5" height="32" rx="10" fill="#241A13" stroke="#E8A65D" stroke-opacity=".28"/><text x="543.6" y="174.8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#EDE3D6">Linux</text></g>
+</svg>
