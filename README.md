@@ -54,7 +54,7 @@ class Arsh:
 ## ▍activity
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=KumarArsh4720&layout=donut-vertical&hide_title=true&langs_count=4&hide_values=true&theme=transparent" alt="GitHub stats" width="49%">
+  <img src="https://github-stats-extended.vercel.app/api?username=KumarArsh4720&rank_icon=github&hide_title=true&include_all_commits=true&theme=flag-india" alt="GitHub stats" width="49%">
 
 </div>
 
